@@ -1,0 +1,29 @@
+settings:
+  ecmascript: 6
+
+parser: babel-eslint
+
+env:
+  node: true
+  mocha: true
+
+rules:
+  comma-style: [2, "last"]
+  default-case: 2
+  func-style: [2, "declaration"]
+  guard-for-in: 2
+  no-floating-decimal: 2
+  no-nested-ternary: 2
+  no-undefined: 2
+  no-undef: 0
+  radix: 2
+  keyword-spacing: [2]
+  space-before-blocks: 2
+  spaced-comment: [2, "always", { exceptions: ["-"]}]
+  valid-jsdoc: 0
+  wrap-iife: 2
+  quotes: [1, "single"]
+  new-cap: 0
+  no-multi-spaces: 0
+  no-underscore-dangle: 0
+  brace-style: [2, "stroustrup", { "allowSingleLine": true }]

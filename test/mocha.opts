@@ -1,0 +1,6 @@
+--reporter spec
+--recursive
+--color
+--require test/spec-helper
+--slow 1000
+--timeout 5000
