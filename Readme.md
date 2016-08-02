@@ -1,5 +1,7 @@
 # json-app-config
 
+[![Build Status](https://travis-ci.org/hackerzhut/json-app-config.svg?branch=master)](https://travis-ci.org/hackerzhut/json-app-config)
+
 > Loads and validates `JSON` configuration files
 
 ## Usage
@@ -68,10 +70,10 @@ var schema = s({
 var config = jsonConfig.load({
   schema: schema
 });
-
-An error will be thrown if the schema doesn't match the config.json. Looks for errors in the thrown
-Error object to see the list of errors.
 ```
+
+An error will be thrown if the schema doesnt match the config.json. Looks for errors in the thrown
+Error object to see the list of errors.
 
 # Validate existing JSON objects
 
